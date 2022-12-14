@@ -39,6 +39,7 @@
 .btn{
 	display: inline-block;
 	padding: 0.4rem;
+	max-width: 15rem;
 
 	cursor: pointer;
 }
@@ -46,7 +47,7 @@
 .btn.blue{
 	color: white;
 	background-color: #0061ff;
-	width: 4rem;
+	
 }
 
 /* PADDING */

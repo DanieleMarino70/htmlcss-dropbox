@@ -1,7 +1,7 @@
 /* GENERICS */
 
 section{
-    margin: 5rem 0;
+    margin: 10rem 0;
 }
 
 
@@ -44,20 +44,56 @@ section{
     align-items: flex-end;
     
     /* debug */
-    height: 40rem;
-    background-color: #00008b;
+    height: 45rem;
+    background-color: #b4d0e7;
 
 }
 
 .jumbo-content{
-    
+    display: flex;
+    flex-direction: column;
+
     /* debug */
-    height: 35rem;
     width: 100%;
     background-color: #daa520;
     border: 2px dashed black;
-    margin-bottom: 10px;
+    
 
+}
+
+.jumbo-title{
+    font-size: 4.7rem;
+    font-weight: bold;
+    background-color: #20b2aa;
+    
+}
+
+.jumbo-main-content{
+    display: flex;
+    height: 100%;
+    
+
+    background-color: red;
+}
+
+.jumbo-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5rem;
+
+    font-size: 0.95rem;
+    width: 27%;
+    background-color: salmon;
+    border: 2px dashed black;
+}
+.jumbo-img{
+    width: 73%;
+}
+
+.jumbo-img > * {
+    position:relative;
+    top: 5rem;
 }
 
 /* MAIN  */
