@@ -1,6 +1,44 @@
 /* HEADER */
+.header-top{
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+
+    /* debug */
+    background-color: #add8e6;
+}
+
+.header-nav{
+    height: 2.5rem;
+    
+    /* debug */
+    width: 300px;
+    background-color: #daa520;
+    border: 2px dashed black;
+}
+
+.jumbotron{
+    display: flex;
+    height: 40rem;
+    align-items: flex-end;
 
 
+    /* debug */
+    background-color: #00008b;
+
+}
+
+.jumbo-content{
+    height: 35rem;
+    width: 100%;
+
+    /* debug */
+    background-color: #daa520;
+    border: 2px dashed black;
+    margin-bottom: 10px;
+
+}
 
 /* MAIN  */
 
