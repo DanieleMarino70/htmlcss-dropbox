@@ -1,3 +1,10 @@
+/* GENERICS */
+
+section{
+    margin: 5rem 0;
+}
+
+
 /* HEADER */
 .header-top{
     display: flex;
@@ -20,20 +27,19 @@
 
 .jumbotron{
     display: flex;
-    height: 40rem;
     align-items: flex-end;
-
-
+    
     /* debug */
+    height: 40rem;
     background-color: #00008b;
 
 }
 
 .jumbo-content{
+    
+    /* debug */
     height: 35rem;
     width: 100%;
-
-    /* debug */
     background-color: #daa520;
     border: 2px dashed black;
     margin-bottom: 10px;
@@ -42,7 +48,52 @@
 
 /* MAIN  */
 
+.billing,
+.operations{
+    
+    /* debug */
+    height: 80rem;
+    width: 100%;
+    background-color: #daa520;
+    border: 2px dashed black;
+}
 
+.sponsors{
+    display: flex;
+    
+    /* debug */
+    height: 60rem;
+    background-color: #b4d0e7;
+}
+
+.square{
+    
+    /* debug */
+    height: 37.5rem;
+    width: 37.5rem;
+    background-color: #daa520;
+    border: 2px dashed black;
+
+}
+
+.faq-container{
+    display: flex;
+    height: 40rem;
+
+    align-items: center;
+
+
+}
+
+.faq-content{
+    height: 30rem;
+
+    width: 100%;
+
+    /* debug */
+    background-color: #daa520;
+    border: 2px dashed black;
+}
 
 /* FOOTER */
 

@@ -13,6 +13,11 @@
 	margin: 0 auto;
 }
 
+.small-container{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
 .clearfix::after {
 	content: '';
 	clear: both;
@@ -25,6 +30,10 @@
 
 .cs-pointer{
 	cursor: pointer;
+}
+
+.fl-grow{
+	flex-grow: 1;
 }
 
 /* PADDING */
