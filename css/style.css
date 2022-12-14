@@ -13,17 +13,31 @@ section{
     align-items: center;
 
     /* debug */
-    background-color: #add8e6;
+    /* background-color: #add8e6; */
+}
+
+.logo{
+    width: 10rem;
+    
+
+    /* debug */
+    background-color: red;
+    border: 1px solid black;
+
 }
 
 .header-nav{
+    display: flex;
+    align-items: center;
     height: 2.5rem;
     
     /* debug */
-    width: 300px;
+    /* width: 25rem; */
     background-color: #daa520;
     border: 2px dashed black;
 }
+
+
 
 .jumbotron{
     display: flex;

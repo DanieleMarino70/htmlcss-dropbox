@@ -34,3 +34,8 @@ a{
 b{
 	font-weight: bold;
 }
+
+button{
+	border: none;
+	background: none;
+}
