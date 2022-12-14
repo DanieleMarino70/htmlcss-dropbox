@@ -4,6 +4,16 @@ section{
     margin: 10rem 0;
 }
 
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
 
 /* HEADER */
 .header-top{
@@ -21,8 +31,8 @@ section{
     
 
     /* debug */
-    background-color: red;
-    border: 1px solid black;
+    /* background-color: red;
+    border: 1px solid black; */
 
 }
 
@@ -33,8 +43,8 @@ section{
     
     /* debug */
     /* width: 25rem; */
-    background-color: #daa520;
-    border: 2px dashed black;
+    /* background-color: #daa520;
+    border: 2px dashed black; */
 }
 
 
@@ -44,7 +54,7 @@ section{
     align-items: flex-end;
     
     /* debug */
-    height: 45rem;
+    
     background-color: #b4d0e7;
 
 }
@@ -55,25 +65,28 @@ section{
 
     /* debug */
     width: 100%;
-    background-color: #daa520;
-    border: 2px dashed black;
+    /* background-color: #daa520;
+    border: 2px dashed black; */
     
 
 }
 
 .jumbo-title{
     font-size: 4.7rem;
-    font-weight: bold;
-    background-color: #20b2aa;
+    font-weight: bolder;
+    margin-top: 3rem;
+
+    /* debug */
+    /* background-color: #20b2aa; */
     
 }
 
 .jumbo-main-content{
     display: flex;
-    height: 100%;
+    /* height: 100%; */
     
-
-    background-color: red;
+    /* debug */
+    /* background-color: red; */
 }
 
 .jumbo-description{
@@ -84,8 +97,10 @@ section{
 
     font-size: 0.95rem;
     width: 27%;
-    background-color: salmon;
-    border: 2px dashed black;
+
+    /* debug */
+    /* background-color: salmon;
+    border: 2px dashed black; */
 }
 .jumbo-img{
     width: 73%;
@@ -107,6 +122,52 @@ section{
     background-color: #daa520;
     border: 2px dashed black;
 }
+
+.billing-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+
+}
+
+.billing-col{
+    width: calc(100% / 3 - 1.5rem);
+
+    background-color: chartreuse;
+    border: 1px solid lightgray;
+}
+
+.col-entity{
+    width: 100%;
+    font-size: 0.95rem;
+}
+
+.cost > * {
+    margin: 0.4rem 0;
+}
+
+.benefits > *{
+    margin: 1.5rem 0;
+}
+
+.col-entity.title{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid lightgrey;
+    padding: 0.5rem;
+}
+
+.col-entity.topcard{
+    color: red;
+}
+
+.col-entity.topcard > *, 
+.col-entity.bottomcard  > *{
+    padding: 1rem;
+}
+
+
+
 
 .sponsors{
     display: flex;
