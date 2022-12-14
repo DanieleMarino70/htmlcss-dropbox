@@ -97,4 +97,37 @@ section{
 
 /* FOOTER */
 
+.main-footer{
+    height: 35rem;
+    
+    
+    
 
+    /* debug */
+    background-color: #000000;
+
+}
+
+.footer-container{
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.top-footer{
+    display: flex;
+    margin-top: 3rem;
+    height: 20rem;
+    width: 100%;
+    background-color: #20b2aa;
+    border: 2px dashed white;
+}
+
+.language{
+    width: 10rem;
+    height: 100px;
+
+    background-color: #daa520;
+    border: 2px dashed white;
+}
