@@ -157,7 +157,7 @@ h3{
 .col-entity.title,
 .enterprise-title{
     text-align: center;
-    border: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
     padding: 0.5rem;
 }
 
