@@ -61,10 +61,18 @@
 	width: 100%;
 }
 
-.btn.blue{
+.btn.primary{
 	color: white;
 	background-color: #0061ff;
 	padding: 0.4rem;
+}
+
+.btn.secondary{
+	color: inherit;
+	background-color: white;
+	padding: 0.4rem;
+
+	border: 1px solid black;
 }
 
 .little-circle{
