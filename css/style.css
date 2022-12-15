@@ -147,11 +147,11 @@ h3{
 }
 
 .cost > * {
-    margin: 0.4rem 0;
+    margin-top: 0.4rem;
 }
 
 .benefits > *{
-    margin: 1.5rem 0;
+    margin-top: 1.5rem;
 }
 
 .col-entity.title,
@@ -161,9 +161,7 @@ h3{
     padding: 0.5rem;
 }
 
-.col-entity.topcard{
-    color: red;
-}
+
 
 .col-entity.topcard > *, 
 .col-entity.bottomcard  > *,
