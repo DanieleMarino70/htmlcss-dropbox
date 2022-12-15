@@ -117,11 +117,13 @@ h3{
 .operations{
     
     /* debug */
-    height: 80rem;
+    height: 120rem;
     width: 100%;
     background-color: #daa520;
     border: 2px dashed black;
 }
+
+/* section 1 */
 
 .billing-row{
     display: flex;
@@ -162,9 +164,46 @@ h3{
 }
 
 .col-entity.topcard > *, 
-.col-entity.bottomcard  > *{
+.col-entity.bottomcard  > *,
+.enterprise-content  > *{
     padding: 1rem;
 }
+
+.enterprise-card{
+    /* debug */
+    background-color: chartreuse;
+    border: 1px solid lightgray;
+}
+
+.enterprise-title{
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 0.5rem;
+}
+
+.contact-text{
+    padding: 3rem;
+}
+.contact-text > *{
+    margin: 0.5rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
