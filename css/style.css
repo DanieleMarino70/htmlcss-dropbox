@@ -1,13 +1,23 @@
 /* GENERICS */
+header a{
+    text-decoration: none;
+}
 
 section{
-    margin: 10rem 0;
+    margin: 7rem 0;
+}
+
+
+h1{
+    font-size: 4.7rem;
+    font-weight: 800;
+    margin-top: 3rem;
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: bold;
-    margin-bottom: 2rem;
+    
 }
 
 h3{
@@ -18,93 +28,53 @@ h3{
 
 /* HEADER */
 .header-top{
+    position: fixed;
     display: flex;
     height: 5rem;
+    z-index: 1;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
-
-    /* debug */
-    /* background-color: #add8e6; */
-}
-
-.logo{
-    width: 10rem;
+    background-color: white;
+    box-shadow: 0px 0px 1px lightgray;
     
-
-    /* debug */
-    /* background-color: red;
-    border: 1px solid black; */
-
 }
 
 .header-nav{
     display: flex;
-    align-items: center;
-    height: 2.5rem;
-    
-    /* debug */
-    /* width: 25rem; */
-    /* background-color: #daa520;
-    border: 2px dashed black; */
+    justify-content: space-between;
+    width: 100%;
 }
 
+.header-nav > ul > li {
+    display: inline-block;
+    margin: 0 10px;
+}
 
+.header-nav > ul > li > a {
+    display: inline-block;
+    line-height: 5rem;
+}
+
+.header-nav > ul > li > a:not(.not):hover{
+    box-shadow: 0px 2px 0px black;
+}
 
 .jumbotron{
-    display: flex;
-    align-items: flex-end;
-    
+    padding-top: 6rem;
     /* debug */
-    
     background-color: #b4d0e7;
 
 }
 
-.jumbo-content{
-    display: flex;
-    flex-direction: column;
-
-    /* debug */
-    width: 100%;
-    /* background-color: #daa520;
-    border: 2px dashed black; */
-    
-
-}
-
-.jumbo-title{
-    font-size: 4.7rem;
-    font-weight: bolder;
-    margin-top: 3rem;
-
-    /* debug */
-    /* background-color: #20b2aa; */
-    
-}
-
-.jumbo-main-content{
-    display: flex;
-    /* height: 100%; */
-    
-    /* debug */
-    /* background-color: red; */
-}
 
 .jumbo-description{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 5rem;
-
-    font-size: 0.95rem;
-    width: 27%;
-
-    /* debug */
-    /* background-color: salmon;
-    border: 2px dashed black; */
-}
-.jumbo-img{
-    width: 73%;
+    margin-bottom: 3rem;
+   
 }
 
 .jumbo-img > * {
@@ -114,17 +84,7 @@ h3{
 
 /* MAIN  */
 
-.billing,
-.operations{
-    
-    /* debug */
-    /* height: 120rem;
-    width: 100%;
-    background-color: #daa520;
-    border: 2px dashed black; */
-}
-
-/* section 1 */
+/* billing section*/
 
 .billing-row{
     display: flex;
@@ -198,43 +158,84 @@ h3{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* sponsors section */
 
 .sponsors{
-    display: flex;
+    
     
     /* debug */
-    height: 60rem;
+    /* height: 60rem; */
     background-color: #b4d0e7;
 }
 
+.square-row{
+    display: flex;
+}
+
 .square{
+    display: flex;
+    width: calc(100% / 3);
+    height: 33vw;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
     
+
     /* debug */
-    height: 37.5rem;
-    width: 37.5rem;
-    background-color: #daa520;
-    border: 2px dashed black;
+    /* height: 37.5rem; */
+    /* width: 37.5rem; */
+    /* background-color: #daa520; */
+    /* border: 2px dashed black; */
 
 }
 
+.square.middle{
+    text-align: start;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding: 2rem;
+    background-color: #f5f5f5;
+
+    overflow: auto;
+}
+
+.square.middle > div > img{
+    width: 60%;
+}
+
+.little-square{
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgba(255,255,255,0.5);
+    height: 50%;
+    width: 50%;
+}
+
+.little-square:active{
+    border-style: solid;
+    
+}
+
+.little-square > img {
+    width: 60%;
+    filter: invert(1);
+}
+
+.sponsor-title{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.sponsor-title > *{
+    margin: 6rem 0;
+}
+
+
+/* faq section */
+
 .faq-container{
     display: flex;
-    height: 40rem;
+    
 
     align-items: center;
 
@@ -242,14 +243,38 @@ h3{
 }
 
 .faq-content{
-    height: 30rem;
-
-    width: 100%;
-
+     width: 100%;
     /* debug */
-    background-color: #daa520;
-    border: 2px dashed black;
+    /* background-color: #daa520;
+    border: 2px dashed black; */
 }
+
+.questions{
+    width: 100%;
+    border-top: 1px solid lightgray;
+     
+}
+.questions:last-child{ 
+    border-bottom: 1px solid lightgray;
+}
+
+.questions-title,
+.questions-answer{
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+.questions:hover > .questions-answer,
+.questions:hover > .questions-title > div > .d-none{
+    display: block;
+
+}
+
+
+.questions:hover > .questions-title > div > .d-block {
+    display: none;
+}
+
 
 /* FOOTER */
 

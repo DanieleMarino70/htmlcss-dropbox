@@ -40,6 +40,12 @@
 .d-flex{
 	display: flex;
 }
+.d-none{
+	display: none;
+}
+.d-block{
+	display: block;
+}
 
 .cs-pointer{
 	cursor: pointer;
@@ -47,6 +53,9 @@
 
 .fl-grow{
 	flex-grow: 1;
+}
+.va-middle{
+	vertical-align: middle;
 }
 
 .btn{
@@ -75,6 +84,14 @@
 	border: 1px solid black;
 }
 
+.btn.tertiary{
+	color: inherit;
+	background-color: white;
+	padding: 0.4rem;
+
+	
+}
+
 .little-circle{
 	display: inline-block;
 	width: 1rem;
@@ -91,6 +108,9 @@
 	margin: 2.5rem 1rem;
 }
 
+.dash.no-ml-mr{
+	margin: 2.5rem 0rem;
+}
 
 /* PADDING */
 
@@ -335,4 +355,38 @@
 
 .color-blue{
 	color: #0061ff;
+}
+
+/* BACKGROUNDS-COLORS */
+
+.bg-designit{
+	background-color: #a2d39b;
+}
+
+.bg-asu{
+	background-color: #61082b;
+}
+
+.bg-florida{
+	background-color: #0093ce;
+}
+
+.bg-topps{
+	background-color: #ff1c1c;
+}
+
+.bg-wbr{
+	background-color: #d5001f;
+}
+
+.bg-hearst{
+	background-color: #b4d0e7;
+}
+
+.bg-lonely{
+	background-color: #0d2481;
+}
+
+.bg-cco{
+	background-color: #ffd830;
 }

@@ -17,25 +17,19 @@
 <body>
     <header>
         <div class="header-top">
-            <nav class="header-nav left">
-                <div class="logo m2">
-                    <img src="./img/logo-small.png" alt="">
-                </div>
-                <ul class="d-flex fl-gap3">
-                    <li>Perché Dropbox</li>
-                    <li>Funzioni</li>
-                    <li>Piani e Prezzi</li>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="" class="not"><img src="./img/logo-small.png" alt="" class="va-middle"></a></li>
+                    <li><a href="">Perché Dropbox</a></li>
+                    <li><a href="">Funzioni</a></li>
+                    <li><a href="">Piani e Prezzi</a></li>
                 </ul>
-
-            </nav>
-
-            <nav class="header-nav right">
-                <ul class="d-flex fl-gap3">
-                    <li>Supporto</li>
-                    <li>Contatta l'ufficio vendite</li>
-                    <li>Accedi</li>
+                <ul>
+                    <li><a href="">Supporto</a></li>
+                    <li><a href="">Contatta l'ufficio vendite</a></li>
+                    <li><a href="">Accedi</a></li>
+                    <button class="btn primary m2">Inizia</button>
                 </ul>
-                <button class="btn primary m2">Inizia</button>
 
             </nav>
         </div>
@@ -45,15 +39,15 @@
                 <div class="jumbo-title">
                     <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 </div>
-                <div class="jumbo-main-content">
-                    <div class="jumbo-description">
+                <div class="jumbo-main-content d-flex">
+                    <div class="jumbo-description w30">
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                         </p>
                         <button class="btn primary">Inizia la tua prova gratuita</button>
                         <div>Annulla in qualsiasi momento</div>
-                        <span><i class="fa-solid fa-arrow-down ft-size5"></i></span>
+                        <span><a href="#billing-zone"><i class="fa-solid fa-arrow-down ft-size5"></i></a></span>
                     </div>
-                    <div class="jumbo-img">
+                    <div class="jumbo-img w70">
                         <img src="./img/jumbo.png" alt="">
 
                     </div>
@@ -70,9 +64,9 @@
 
         <!-- billing section -->
         <section>
-            <div class="billing small-container">
-                <div class="billing-title">
-                    <h2>Trova il piano business che fa per te</h2>
+            <div class="billing small-container pt5">
+                <div class="billing-title" id="billing-zone">
+                    <h2 class="mb5">Trova il piano business che fa per te</h2>
                     <div class="little-circle"></div>
                     <span>Fatturazione mensile</span>
                     <div class="little-circle"></div>
@@ -253,7 +247,7 @@
         <section>
             <div class="operations small-container">
                 <div class="operations-title">
-                    <h2>Esegui più operazioni con Dropbox Business</h2>
+                    <h2 class="mb5">Esegui più operazioni con Dropbox Business</h2>
                 </div>
                 <div class="operations-row">
                     <div class="op-col">
@@ -293,22 +287,61 @@
                     </div>
                 </div>
                 <div class="team-numbers w60 mt5 mb5">
-                    <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
+                    <h2 class="mb5">Più di 500.000 team utilizzano Dropbox Business</h2>
                     <a href="">Scopri di più sui nostri clienti</a>
                 </div>
             </div>
         </section>
 
+        <!-- sponsors section -->
         <section>
             <div class="sponsors">
-                <div class="square">
+                <div class="square-row">
+                    <div class="square">
+                        <div class="little-square d-flex bg-designit">
+                            <img src="./img/designit.svg" alt="">
+                        </div>
+                        <div class="little-square d-flex bg-asu">
+                            <img src="./img/arizona_state_university.svg" alt="">
+                        </div>
+                        <div class="little-square d-flex bg-florida">
+                            <img src="./img/university_of_florida.svg" alt="">
+                        </div>
+                        <div class="little-square d-flex bg-topps ">
+                            <img src="./img/topps.svg" alt="">
+                        </div>
+    
+                    </div>
+                    <div class="square middle">
+                        <div class="designit-block">
+                            <img src="./img/designit.svg" alt="">
+                            <div class="dash no-ml-mr"></div>
+                            <p class="mb3">"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".</p>
+                            <quote>Morten Thomsen, Global IT Lead</quote>
+                        </div>
+                    </div>
+                    <div class="square">
+                        <div class="little-square d-flex bg-wbr">
+                            <img src="./img/world_bicycle_relief.svg" alt="">
+                        </div>
+                        <div class="little-square d-flex bg-hearst">
+                            <img src="./img/hearst_corp.svg" alt="">
+                        </div>
+                        <div class="little-square d-flex bg-lonely">
+                            <img src="./img/lonely_planet.svg" alt="">
+                        </div>
+                        <div class="little-square d-flex bg-cco">
+                            <img src="./img/clear_channel.svg" alt="">
+                        </div>
+                    </div>
 
                 </div>
-                <div class="square fl-grow">
-                    
-                </div>
-                <div class="square">
-                    
+                <div class="small-container">
+                    <div class="sponsor-title d-flex">
+                        <h2 class="w60">Porta Dropbox Business nella tua azienda.</h2>
+                        <button class="btn tertiary w40">Inizia la tua prova gratuita</button>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -316,7 +349,55 @@
         <section>
             <div class="faq-container">
                 <div class="faq-content small-container">
+                    <div class="faq-title">
+                        <h2 class="mb5">Domande Frequenti</h2>
+                    </div>
+                    <div class="questions">
+                        <div class="questions-title d-flex">
+                            <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
+                            <div><i class="fa-solid fa-angle-down mr3 d-block"></i><i class="fa-solid fa-angle-up mr3 d-none"></i></div>
+                            
+                        </div>
+                        <div class="questions-answer d-none">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatibus illo tempora laboriosam, magni ea consequatur non nulla quia consequuntur?</p>
+                        </div>
+                    </div>
 
+                    <div class="questions">
+                        <div class="questions-title d-flex">
+                            <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
+                            <div><i class="fa-solid fa-angle-down mr3 d-block"></i><i class="fa-solid fa-angle-up mr3 d-none"></i></div>
+                        </div>
+                        <div class="questions-answer d-none">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatibus illo tempora laboriosam, magni ea consequatur non nulla quia consequuntur?</p>
+                        </div>
+                    </div>
+
+                    <div class="questions">
+                        <div class="questions-title d-flex">
+                            <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
+                            <div><i class="fa-solid fa-angle-down mr3 d-block"></i><i class="fa-solid fa-angle-up mr3 d-none"></i></div>
+                        </div>
+                        <div class="questions-answer d-none">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatibus illo tempora laboriosam, magni ea consequatur non nulla quia consequuntur?</p>
+                        </div>
+                    </div>
+
+                    <div class="questions">
+                        <div class="questions-title d-flex">
+                            <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
+                            <div><i class="fa-solid fa-angle-down mr3 d-block"></i><i class="fa-solid fa-angle-up mr3 d-none"></i></div>
+                        </div>
+                        <div class="questions-answer d-none">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatibus illo tempora laboriosam, magni ea consequatur non nulla quia consequuntur?</p>
+                        </div>
+                    </div>
+                        
+                    
+                    
+
+                    
+                    
                 </div>
 
 
