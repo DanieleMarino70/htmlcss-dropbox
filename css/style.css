@@ -1,5 +1,6 @@
 /* GENERICS */
-header a{
+header a,
+footer a{
     text-decoration: none;
 }
 
@@ -179,13 +180,6 @@ h3{
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    
-
-    /* debug */
-    /* height: 37.5rem; */
-    /* width: 37.5rem; */
-    /* background-color: #daa520; */
-    /* border: 2px dashed black; */
 
 }
 
@@ -279,36 +273,30 @@ h3{
 /* FOOTER */
 
 .main-footer{
-    height: 35rem;
-    
-    
-    
-
-    /* debug */
+    padding: 5rem 0;
     background-color: #000000;
-
-}
-
-.footer-container{
-    height: 35rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .top-footer{
     display: flex;
-    margin-top: 3rem;
-    height: 20rem;
-    width: 100%;
-    background-color: #20b2aa;
-    border: 2px dashed white;
+    color: white;
+}
+
+.top-footer > ul {
+    width: calc(100% / 5);
+}
+
+.top-footer > ul > * {
+    margin: 1.2rem 0;
 }
 
 .language{
-    width: 10rem;
-    height: 100px;
+    width: 8rem;
+    color: lightgray;
+    border-top: 1px solid lightgray;
+}
 
-    background-color: #daa520;
-    border: 2px dashed white;
+.language > div,
+.language {
+    margin-top: 3rem;
 }
