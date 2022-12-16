@@ -69,11 +69,14 @@
 .btn.full{
 	width: 100%;
 }
+.btn:hover {
+    filter: brightness(1.2);
+}
 
 .btn.primary{
 	color: white;
 	background-color: #0061ff;
-	padding: 0.4rem;
+	padding: 0.8rem;
 }
 
 .btn.secondary{
@@ -98,9 +101,12 @@
 	height: 1rem;
 	background: white;
 	border-radius: 50%;
-	border: 1.5px solid lightgray;
+	border: 0.01rem solid lightgray;
 
 	cursor: pointer;
+}
+.little-circle.colored{
+	border: 0.28rem solid #0061ff;
 }
 .dash{
 	border: 1px solid lightgrey;
@@ -356,11 +362,15 @@
 .color-blue{
 	color: #0061ff;
 }
+.color-gray{
+	color: gray;
+}
 
 /* BACKGROUNDS-COLORS */
 
-.bg-designit{
+.little-square.bg-designit{
 	background-color: #a2d39b;
+	border-color: rgba(255,255,255,0.5);
 }
 
 .bg-asu{

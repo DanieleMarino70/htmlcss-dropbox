@@ -1,4 +1,8 @@
 /* GENERICS */
+li > a.btn.primary.not {
+    line-height: normal;
+}
+
 header a,
 footer a{
     text-decoration: none;
@@ -24,6 +28,20 @@ h2{
 h3{
     font-size: 1.3rem;
     font-weight: bold;
+}
+
+h4{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 0.85rem;
+    font-weight:  bold;
+}
+
+p{
+    line-height: 1.3rem;
 }
 
 
@@ -114,6 +132,10 @@ h3{
 .benefits > *{
     margin-top: 1.5rem;
 }
+.benefits span,
+.col-entity.bottomcard span{
+    margin: 0 0.2rem;
+}
 
 .col-entity.title,
 .enterprise-title{
@@ -200,15 +222,12 @@ h3{
 .little-square{
     justify-content: center;
     align-items: center;
-    border: 10px solid rgba(255,255,255,0.5);
+    border: 1rem solid rgba(0,0,0,0.001);
     height: 50%;
     width: 50%;
+    /* rgba(255,255,255,0.5) */
 }
 
-.little-square:active{
-    border-style: solid;
-    
-}
 
 .little-square > img {
     width: 60%;
@@ -223,7 +242,9 @@ h3{
 .sponsor-title > *{
     margin: 6rem 0;
 }
-
+.sponsor-title > h2{
+    color: #61082b;
+}
 
 /* faq section */
 
